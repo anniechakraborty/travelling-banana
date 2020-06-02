@@ -1,0 +1,12 @@
+.jumbotron{
+    color: aliceblue;
+    background-color: rgb(70, 66, 66);
+}
+/* hr{
+    background-color: wheat;
+} */
+.container > .jumbotron{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
