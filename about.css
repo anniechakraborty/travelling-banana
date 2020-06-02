@@ -1,0 +1,25 @@
+body{
+        text-align: center;
+        font-style: italic;
+        margin-top: 100px;
+    
+    }
+
+.card{
+        width: 22rem;
+        background-color: rgb(209, 209, 137);
+        color: #222;
+        font-weight: 100;
+        
+    }
+#table{
+        color: #222;
+        background-color:beige;
+    }
+span{
+        font-size: 3em;
+    }
+.row{
+        display: flex;
+        align-items: center;
+}
