@@ -1,0 +1,20 @@
+body {
+  background-color: #222;
+  color: aliceblue;
+  text-align: center;
+  font-style: italic;
+  margin-top: 100px;
+}
+
+body nav {
+  width: 100%;
+  background-color: #1d1c1c;
+  -webkit-box-shadow: 3px 3px 6px 6px rgba(15, 15, 15, 0.4);
+          box-shadow: 3px 3px 6px 6px rgba(15, 15, 15, 0.4);
+}
+
+body nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */
