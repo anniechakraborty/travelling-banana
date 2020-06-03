@@ -6,17 +6,20 @@
         box-shadow: 3px 3px 6px 6px rgba(15, 15, 15, 0.4);
         
     }
-#table{
+table{
         color: #222;
         background-color:beige;
         box-shadow: 3px 3px 6px 6px rgba(15, 15, 15, 0.4);
     }
-span{
+.letter-highlight{
         font-size: 3em;
     }
 .row{
         display: flex;
         align-items: center;
+}
+hr{
+        background-color: beige;
 }
 /* h3{
         box-shadow: 3px 3px 6px 6px rgba(15, 15, 15, 0.4);
