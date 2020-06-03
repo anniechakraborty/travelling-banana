@@ -1,0 +1,8 @@
+@media (min-width : 576px){
+    #hide img{
+        display: none !important
+    }
+}
+@media (min-width : 768px){
+
+}
