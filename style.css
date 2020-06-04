@@ -17,4 +17,8 @@ body nav a {
   text-decoration: none;
   text-transform: uppercase;
 }
+
+body footer {
+  background-color: #1d1c1c;
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,39 @@
+%text-styles{
+    font-size: 14px;
+    text-align: center;
+}
+
+#post-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    .box{
+        width: 250px;
+        background-color: rgb(49, 43, 43);
+        float: left;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 18px;
+
+        .ul{
+            @extend %text-styles;
+            list-style: lower-greek;
+        }
+
+        p{
+            @extend %text-styles;
+        }
+
+        .headings{
+            font-weight: 200;
+            text-align: left;
+            text-transform: uppercase;
+            font-style: italic;
+        }
+
+        hr{
+            background-color: gray;
+        }
+    }
+}

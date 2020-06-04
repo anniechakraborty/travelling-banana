@@ -1,0 +1,74 @@
+$font-color : aliceblue;
+$flex-position : center;
+$background-color :rgb(73, 68, 68);
+$font-pack : 'Architects Daughter', cursive;
+.container{
+    .jumbotron{
+        display: flex;
+        justify-content: $flex-position;
+        align-items: $flex-position;
+        color: $font-color;
+        background-color: $background-color;
+    }
+}
+%ciao-cards{
+    color: $font-color;
+    box-shadow: 4px 3px 6px 6px rgb(32, 32, 32);
+    border-radius: 0.25rem;
+    margin-top: 2em;
+    padding: 2em;
+}
+#cards{
+    // display: grid;
+    // grid-column-gap: 1.5em;
+    // grid-row-gap: 0.5em;
+    // grid-template-columns: auto auto auto auto;
+    #first{
+        @extend %ciao-cards;
+        background-color: rgba(228, 175, 62, 0.767);
+        hr{
+            background-color: rgba(80, 80, 5, 0.884);
+        }
+    }
+    #second{
+        @extend %ciao-cards;
+        background-color: rgba(62, 228, 228, 0.658);
+        hr{
+            background-color: rgba(5, 61, 56, 0.884);
+        }
+    }
+    #third{
+        @extend %ciao-cards;
+        background-color: rgba(228, 87, 62, 0.767);
+        hr{
+            background-color: rgba(66, 8, 6, 0.884);
+        }
+    }
+    #fourth{
+        @extend %ciao-cards;
+        background-color: rgba(175, 62, 228, 0.767);
+        hr{
+            background-color: rgba(80, 5, 76, 0.884);
+        }
+    }
+}
+// .col-lg-2{
+//     margin-right: 1.5em;
+//     margin-left: 2em;
+// }
+@media (min-width: 992px){
+    .col-lg-3 {
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+        margin-right: 1em;
+    }
+}
+@media (min-width: 768px){
+    .col-md-6 {
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+        margin-right: 1.5em;
+    }
+}
