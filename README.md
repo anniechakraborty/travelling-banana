@@ -4,6 +4,8 @@
 
 ## About the project
 
+Visit the project at [anniechakraborty.github.io/travelling-banana](https://anniechakraborty.github.io/travelling-banana/) . Let me know what you think.
+
 ### Project Description
 
 It is a simple static website featuring a modern thesaurus loving community. It's built only using HTML and CSS and hence no functionality as such. 
